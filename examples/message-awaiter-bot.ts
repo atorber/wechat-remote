@@ -23,7 +23,7 @@ import {
   EventLogger,
   QRCodeTerminal,
   messagePrompter,
-} from '../src/mod.js'  // from 'wechaty-plugin-contrib'
+} from '../src/mod.js'  // from 'wechat-remote'
 
 const bot = WechatyBuilder.build({
   name: 'message-awaiter-bot',
