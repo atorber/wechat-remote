@@ -75,9 +75,9 @@ bot.start()
 
 1. 访问 [http://www.emqx.io/online-mqtt-client](http://www.emqx.io/online-mqtt-client) ，配置并连接MQTT
 2. 订阅如下主题，其中的“chatbot/”之后的“+”可以换成具体的clientId
-   1. 接收事件 thing/chatbot/+/event/post
-   2. 应用端下发指令 thing/chatbot/+/command/invoke
-   3. 接收响应 thing/chatbot/+/response/d2c/+
+   - 接收事件 thing/chatbot/+/event/post
+   - 应用端下发指令 thing/chatbot/+/command/invoke
+   - 接收响应 thing/chatbot/+/response/d2c/+
 3. 查询机器人状态，向 thing/chatbot/ding-dong-test01/command/invoke 主题发布如下payload：
 
 ```json
