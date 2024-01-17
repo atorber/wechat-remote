@@ -1,5 +1,5 @@
 {
-  "name": "wechaty-plugin-contrib",
+  "name": "wechat-remote",
   "version": "1.12.8",
   "description": "Wechaty Plugin Ecosystem Contrib Package",
   "type": "module",
@@ -53,24 +53,19 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/wechaty/plugin-contrib.git"
+    "url": "git+https://github.com/wechaty/wechat-remote.git"
   },
   "keywords": [
     "wechaty",
     "plugin",
     "contrib"
   ],
-  "author": "Huan LI <zixia@zixia.net> (李卓桓)",
+  "author": "Lu Chao <atorber@163.com>",
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/wechaty/plugin-contrib/issues"
+    "url": "https://github.com/wechaty/wechat-remote/issues"
   },
-  "homepage": "https://github.com/wechaty/plugin-contrib#readme",
-  "git": {
-    "scripts": {
-      "pre-push": "npx git-scripts-pre-push"
-    }
-  },
+  "homepage": "https://github.com/wechaty/wechat-remote#readme",
   "files": [
     "bin/",
     "dist/",
@@ -81,5 +76,10 @@
   },
   "publishConfig": {
     "tag": "next"
+  },
+  "git": {
+    "scripts": {
+      "pre-push": "npx git-scripts-pre-push"
+    }
   }
 }
