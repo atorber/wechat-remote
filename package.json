@@ -1,6 +1,6 @@
 {
   "name": "wechat-remote",
-  "version": "1.12.8",
+  "version": "0.1.0",
   "description": "Wechaty Plugin Ecosystem Contrib Package",
   "type": "module",
   "exports": {
