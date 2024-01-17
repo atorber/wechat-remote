@@ -22,7 +22,7 @@ import {
   DingDong,
   EventLogger,
   QRCodeTerminal,
-}                   from '../src/mod.js'  // from 'wechaty-plugin-contrib'
+}                   from '../src/mod.js'  // from 'wechat-remote'
 
 const bot = WechatyBuilder.build({
   name : 'ding-dong-bot',

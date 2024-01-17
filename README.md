@@ -23,7 +23,7 @@ import {
   QRCodeTerminal,
   MqttGateway,
   MqttGatewayConfig,
-} from '../src/mod.js'  // from 'wechaty-plugin-contrib'
+} from '../src/mod.js'
 
 const bot = WechatyBuilder.build({
   name : 'ding-dong-bot',
