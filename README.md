@@ -691,9 +691,7 @@ public class MqttClientDemo {
 }
 ```
 
-:::info
-其他语言示例欢迎在评论里粘贴代码或提需求，也可以交给GPTs [多语言代码转换大师](https://chat.openai.com/g/g-TgFzzIJjo-duo-yu-yan-dai-ma-zhuan-huan-da-shi)
-:::
+> 其他语言示例欢迎在评论里粘贴代码或提需求，也可以交给GPTs [多语言代码转换大师](https://chat.openai.com/g/g-TgFzzIJjo-duo-yu-yan-dai-ma-zhuan-huan-da-shi)
 
 ## API说明
 
