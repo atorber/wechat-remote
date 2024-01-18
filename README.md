@@ -115,7 +115,7 @@ bot.start()
 
 ### 程序调用
 
-以下是几种常用语言的simplecode，后续会考虑退出sdk，期待大家贡献各种语言的sdk
+以下是几种常用语言的SimpleCode，后续考虑提供SDK，期待大家贡献各种语言的sdk
 
 #### JavaScript
 
