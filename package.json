@@ -1,6 +1,6 @@
 {
   "name": "wechat-remote",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Wechaty Plugin Ecosystem Contrib Package",
   "type": "module",
   "exports": {
@@ -33,7 +33,8 @@
     "@types/uuid": "^9.0.7",
     "wechaty": "^1.11.22",
     "wechaty-mocker": "^1.10.2",
-    "wechaty-puppet-mock": "^1.11.2"
+    "wechaty-puppet-mock": "^1.11.2",
+    "wechat-remote": "^0.1.0"
   },
   "scripts": {
     "build": "tsc && tsc -p tsconfig.cjs.json",
