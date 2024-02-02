@@ -14,7 +14,7 @@ WeChatRemote是一个微信远程调用工具，使用MQTT连接本地或云端�
 
 ### 安装wechat-remote插件
 
-```
+```shell
 npm i wechat-remote
 ```
 
