@@ -33,7 +33,8 @@
     "@types/uuid": "^9.0.7",
     "wechaty": "^1.11.22",
     "wechaty-mocker": "^1.10.2",
-    "wechaty-puppet-mock": "^1.11.2",
+    "file-box": "^1.5.5",
+    "wechaty-puppet-mock": "^1.11.2"
     "wechat-remote": "^0.1.0"
   },
   "scripts": {

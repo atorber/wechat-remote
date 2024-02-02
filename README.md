@@ -12,6 +12,12 @@ WeChatRemote是一个微信远程调用工具，使用MQTT连接本地或云端�
 
 ## 快速入门
 
+### 安装wechat-remote插件
+
+```
+npm i wechat-remote
+```
+
 ### 启动机器人
 
 首先启动一个wechaty客户端（目前仅支持nodejs），并使用mqtt-wechaty插件
@@ -23,7 +29,7 @@ import {
   QRCodeTerminal,
   MqttGateway,
   MqttGatewayConfig,
-} from '../src/mod.js'
+} from 'wechat-remote'
 
 const bot = WechatyBuilder.build({
   name : 'ding-dong-bot',
@@ -115,7 +121,7 @@ bot.start()
 
 ### 程序调用
 
-以下是几种常用语言的simplecode，后续会考虑退出sdk，期待大家贡献各种语言的sdk
+以下是几种常用语言的SimpleCode，后续考虑提供SDK，期待大家贡献各种语言的sdk
 
 #### JavaScript
 
@@ -691,9 +697,7 @@ public class MqttClientDemo {
 }
 ```
 
-:::info
-其他语言示例欢迎在评论里粘贴代码或提需求，也可以交给GPTs [多语言代码转换大师](https://chat.openai.com/g/g-TgFzzIJjo-duo-yu-yan-dai-ma-zhuan-huan-da-shi)
-:::
+> 其他语言示例欢迎在评论里粘贴代码或提需求，也可以交给GPTs [多语言代码转换大师](https://chat.openai.com/g/g-TgFzzIJjo-duo-yu-yan-dai-ma-zhuan-huan-da-shi)
 
 ## API说明
 
